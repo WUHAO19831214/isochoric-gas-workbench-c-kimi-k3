@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+vite.config.ts.timestamp-*.mjs
+tsconfig.tsbuildinfo
+.npm-cache/
+启动日志.txt
+docs/screenshots/
+发布日志.txt

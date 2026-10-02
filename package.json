@@ -1,0 +1,29 @@
+{
+  "name": "isochoric-gas-workbench",
+  "private": true,
+  "version": "1.0.0",
+  "description": "气体的等容变化——实验数据采集与微观可视化工作台（高中物理课堂）",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc -b --noEmit"
+  },
+  "dependencies": {
+    "@physics-software-sensors/core": "file:vendor/physics-software-sensors-core-0.3.0.tgz",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@types/three": "^0.169.0",
+    "@vitejs/plugin-react": "^4.3.3",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.4"
+  }
+}
